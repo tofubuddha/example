@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/09/2014, 2:07:49 PM
+    Author     : Martin
+*/
+
+#adminmenuwrap {
+    height: 100%;
+    position: fixed;
+}
+
+body{
+    font-family: "Open Sans",sans-serif;
+    background-color: #f1f1f1;
+}
+
+ul li ul,
+ul li ol {
+    margin-left: 0;
+}
+
+.wrap h3 {
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+
+div#touch_seo_metabox input,
+div#touch_seo_metabox textarea {
+    width: 100%;
+}
+
+div#touch_seo_metabox textarea {
+    resize: none;
+}
+
+div#touch_seo_metabox .touch-seo-info {
+    display: block;
+    font-style: italic;
+}
+
+div#touch_seo_metabox span.info-characters{
+    font-style: italic;
+    display: block;
+    margin: 0 0 0 0;
+}
+
+div#touch_seo_metabox div#touch_seo_facebook_image_block div.image_block{
+    width: 25%;
+}
+
+div#touch_seo_metabox div#touch_seo_facebook_image_block div.image_block img{
+    max-width: 100%;
+}
